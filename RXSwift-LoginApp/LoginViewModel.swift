@@ -9,6 +9,7 @@ import Foundation
 import RxSwift
 
 class LoginViewModel {
+    
     let userNameTextPublished = PublishSubject<String>()
     let passwordTextPublished = PublishSubject<String>()
     
@@ -17,4 +18,5 @@ class LoginViewModel {
             return userName.count > 4 && password.count > 7
         }.startWith(false)
     }
+    
 }
