@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
+    
+    
     private let disposeBag = DisposeBag()
     private let loginViewModel = LoginViewModel()
     
